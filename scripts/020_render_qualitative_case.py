@@ -75,6 +75,18 @@ ATLAS_CASES = (
     ("insect", "SI_4cc2228f-6772-4878-971d-04e4893c94cd", 225),
 )
 
+ATLAS_MANDIBLE_RECONSTRUCTION = (
+    ROOT
+    / "experiments"
+    / "exp005_real_data_robustness"
+    / "meshes"
+    / "r512"
+    / "clean"
+    / "SI_b1a04b98-c12f-4123-8093-af32c20ce5f3"
+    / "view_000"
+    / "mesh.obj"
+)
+
 
 def clear_scene() -> None:
     bpy.ops.object.select_all(action="SELECT")
@@ -194,6 +206,12 @@ def main() -> None:
     for label, asset_id, azimuth in ATLAS_CASES:
         reference = ROOT / "data" / "raw" / "smithsonian" / f"{asset_id}.glb"
         render(reference, f"atlas_{label}.png", azimuth, gray=False)
+    render(
+        ATLAS_MANDIBLE_RECONSTRUCTION,
+        "atlas_mandible_reconstruction.png",
+        45,
+        gray=True,
+    )
 
 
 if __name__ == "__main__":
