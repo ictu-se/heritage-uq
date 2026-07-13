@@ -1,0 +1,4 @@
+kind,spearman_severity_chamfer,violations
+vertex_noise,0.9999999999999999,0
+face_dropout,0.7,1
+quantization,0.8999999999999998,1

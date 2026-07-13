@@ -1,0 +1,209 @@
+asset_id,view,reference_vertices,generated_vertices,icp_cost,chamfer_l1,hausdorff,fscore_001
+SI_1f1ec6af-193f-4969-9185-dc5dd587239d,"<bound method Series.view of asset_id                   SI_1f1ec6af-193f-4969-9185-dc5dd587239d
+view                                                      view_000
+input_path       data/processed/exp004_input_views/SI_1f1ec6af-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                      cached
+seconds                                                        0.0
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 0, dtype: object>",1,6964,0.06161567505133943,0.11704002894436827,0.4463187191652818,0.0004998750312421894
+SI_1f1ec6af-193f-4969-9185-dc5dd587239d,"<bound method Series.view of asset_id                   SI_1f1ec6af-193f-4969-9185-dc5dd587239d
+view                                                      view_090
+input_path       data/processed/exp004_input_views/SI_1f1ec6af-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 1, dtype: object>",1,9414,0.06344680927436948,0.12191943856194086,0.4066228392311159,0.0002999550067489876
+SI_1f1ec6af-193f-4969-9185-dc5dd587239d,"<bound method Series.view of asset_id                   SI_1f1ec6af-193f-4969-9185-dc5dd587239d
+view                                                      view_180
+input_path       data/processed/exp004_input_views/SI_1f1ec6af-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 2, dtype: object>",1,6988,0.06405781611748002,0.12521304215972046,0.4320542018386883,0.0
+SI_1f1ec6af-193f-4969-9185-dc5dd587239d,"<bound method Series.view of asset_id                   SI_1f1ec6af-193f-4969-9185-dc5dd587239d
+view                                                      view_270
+input_path       data/processed/exp004_input_views/SI_1f1ec6af-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 3, dtype: object>",1,7306,0.05630243445687565,0.1124309992038709,0.45609947885781943,0.0009995002498750627
+SI_451bcb49-01f9-4030-9d89-6f976b64572b,"<bound method Series.view of asset_id                   SI_451bcb49-01f9-4030-9d89-6f976b64572b
+view                                                      view_000
+input_path       data/processed/exp004_input_views/SI_451bcb49-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 4, dtype: object>",91771,17629,0.0005692747860341271,0.023109879111309767,0.13319985765112688,0.24837350025037555
+SI_451bcb49-01f9-4030-9d89-6f976b64572b,"<bound method Series.view of asset_id                   SI_451bcb49-01f9-4030-9d89-6f976b64572b
+view                                                      view_090
+input_path       data/processed/exp004_input_views/SI_451bcb49-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 5, dtype: object>",91771,19530,0.000918351938117159,0.029469220248566505,0.15150604719871966,0.20445328883495145
+SI_451bcb49-01f9-4030-9d89-6f976b64572b,"<bound method Series.view of asset_id                   SI_451bcb49-01f9-4030-9d89-6f976b64572b
+view                                                      view_180
+input_path       data/processed/exp004_input_views/SI_451bcb49-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 6, dtype: object>",91771,19513,0.0005001981858077329,0.021319012112807824,0.10987824638395004,0.3033746912065439
+SI_451bcb49-01f9-4030-9d89-6f976b64572b,"<bound method Series.view of asset_id                   SI_451bcb49-01f9-4030-9d89-6f976b64572b
+view                                                      view_270
+input_path       data/processed/exp004_input_views/SI_451bcb49-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 7, dtype: object>",91771,17342,0.00047825774427291494,0.02073314117437769,0.12014938795965623,0.294036666384921
+SI_b1a04b98-c12f-4123-8093-af32c20ce5f3,"<bound method Series.view of asset_id                   SI_b1a04b98-c12f-4123-8093-af32c20ce5f3
+view                                                      view_000
+input_path       data/processed/exp004_input_views/SI_b1a04b98-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 8, dtype: object>",79745,16097,0.0025870403559200192,0.04043604558030621,0.155093885911502,0.1285359565807327
+SI_b1a04b98-c12f-4123-8093-af32c20ce5f3,"<bound method Series.view of asset_id                   SI_b1a04b98-c12f-4123-8093-af32c20ce5f3
+view                                                      view_090
+input_path       data/processed/exp004_input_views/SI_b1a04b98-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 9, dtype: object>",79745,11017,0.0010434834791511148,0.030053519306212077,0.14809755874374858,0.20515890860476424
+SI_b1a04b98-c12f-4123-8093-af32c20ce5f3,"<bound method Series.view of asset_id                   SI_b1a04b98-c12f-4123-8093-af32c20ce5f3
+view                                                      view_180
+input_path       data/processed/exp004_input_views/SI_b1a04b98-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 10, dtype: object>",79745,15127,0.0008012870830110535,0.021887621239340606,0.08877151409095083,0.30850567933241513
+SI_b1a04b98-c12f-4123-8093-af32c20ce5f3,"<bound method Series.view of asset_id                   SI_b1a04b98-c12f-4123-8093-af32c20ce5f3
+view                                                      view_270
+input_path       data/processed/exp004_input_views/SI_b1a04b98-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 11, dtype: object>",79745,10788,0.002061219346143441,0.043371623546694625,0.2273556350262723,0.1144559686888454
+SI_fc2bca6b-1f44-4d2c-a1b9-713a33ee0596,"<bound method Series.view of asset_id                   SI_fc2bca6b-1f44-4d2c-a1b9-713a33ee0596
+view                                                      view_000
+input_path       data/processed/exp004_input_views/SI_fc2bca6b-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 12, dtype: object>",78496,23204,0.0006299946098681351,0.01190661737799267,0.17418333258087365,0.6745588824171823
+SI_fc2bca6b-1f44-4d2c-a1b9-713a33ee0596,"<bound method Series.view of asset_id                   SI_fc2bca6b-1f44-4d2c-a1b9-713a33ee0596
+view                                                      view_090
+input_path       data/processed/exp004_input_views/SI_fc2bca6b-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 13, dtype: object>",78496,17526,0.0007130942921012213,0.015422376202363246,0.17587480861981553,0.4377449161767908
+SI_fc2bca6b-1f44-4d2c-a1b9-713a33ee0596,"<bound method Series.view of asset_id                   SI_fc2bca6b-1f44-4d2c-a1b9-713a33ee0596
+view                                                      view_180
+input_path       data/processed/exp004_input_views/SI_fc2bca6b-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 14, dtype: object>",78496,22002,0.0006903713469097571,0.01398559527276181,0.17266846094842062,0.6092856766361857
+SI_fc2bca6b-1f44-4d2c-a1b9-713a33ee0596,"<bound method Series.view of asset_id                   SI_fc2bca6b-1f44-4d2c-a1b9-713a33ee0596
+view                                                      view_270
+input_path       data/processed/exp004_input_views/SI_fc2bca6b-...
+mesh_path        experiments/exp004_lrm_reconstruction/meshes/S...
+status                                                     success
+seconds                                                    1.38523
+mc_resolution                                                  128
+model                                          stabilityai/TripoSR
+model_commit              5b521936b01fbe1890f6f9baed0254ab6351c04a
+torch                                                 2.10.0+cu128
+gpu                             NVIDIA GeForce RTX 5080 Laptop GPU
+error                                                          NaN
+Name: 15, dtype: object>",78496,17709,0.0008391971967188494,0.01832515962781166,0.17625117432756088,0.3468158699938805

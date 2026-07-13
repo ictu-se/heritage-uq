@@ -1,0 +1,19 @@
+{
+  "assets": 4,
+  "records": 60,
+  "degradation_kinds": [
+    "vertex_noise",
+    "face_dropout",
+    "quantization"
+  ],
+  "severity_levels": [
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.35
+  ],
+  "surface_samples_per_comparison": 12000,
+  "seed": 20260712,
+  "claim_boundary": "Controlled geometry baseline; no generative-model or cultural-authenticity claim."
+}

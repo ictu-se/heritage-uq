@@ -1,0 +1,9 @@
+{
+  "meshes_analyzed": 1344,
+  "pairwise_clean_perturbed_comparisons": 1152,
+  "watertight_rate": 0.6577380952380952,
+  "mean_components": 6.051339285714286,
+  "most_disruptive_condition": "occlusion_15",
+  "max_aggregate_chamfer": 0.06641052859438064,
+  "claim_boundary": "Cross-condition reconstruction instability on real-source renders; not cultural authenticity."
+}

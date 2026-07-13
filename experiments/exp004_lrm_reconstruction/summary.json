@@ -1,0 +1,12 @@
+{
+  "inputs": 16,
+  "successful": 16,
+  "model": "stabilityai/TripoSR",
+  "views_per_asset": 4,
+  "mc_resolution": 128,
+  "claim_boundary": "Zero-shot single-view technical reconstruction; no cultural-authenticity claim.",
+  "mean_reference_chamfer": 0.04791395747940282,
+  "mean_reference_fscore_001": 0.24231870846221593,
+  "mean_view_pair_chamfer": 0.025651569997511343,
+  "evaluation_surface_samples": 20000
+}

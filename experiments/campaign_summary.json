@@ -1,0 +1,96 @@
+{
+  "status": "complete",
+  "real_smithsonian_assets": 10,
+  "smithsonian_bytes": 71532832,
+  "triposr_source_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+  "triposr_checkpoint_sha256": "429e2c6b22a0923967459de24d67f05962b235f79cde6b032aa7ed2ffcd970ee",
+  "development_matrix": {
+    "runs": 896,
+    "assets": 4,
+    "views": 4,
+    "conditions": 7,
+    "resolutions": 8
+  },
+  "external_holdout_matrix": {
+    "runs": 1344,
+    "assets": 6,
+    "views": 4,
+    "conditions": 7,
+    "resolutions": 8
+  },
+  "factorial_reconstructions": 2240,
+  "pilot_reconstructions": 16,
+  "total_generated_reconstructions": 2256,
+  "ch3d_models": 45,
+  "ch3d_sites": 5,
+  "ch3d_interaction_rows": 182023,
+  "ch3d_source_sha256": "0a2dc4de5839deb6fde18f5d5149ed7d16a1d6d171d0a8a4ebc24d772cdf9474",
+  "ch3d_site_disjoint_spearman": 0.5329643409173027,
+  "development_uncertainty": {
+    "meshes_analyzed": 896,
+    "pairwise_clean_perturbed_comparisons": 768,
+    "watertight_rate": 0.5524553571428571,
+    "mean_components": 15.508928571428571,
+    "most_disruptive_condition": "blur_high",
+    "max_aggregate_chamfer": 0.06668602771058113,
+    "claim_boundary": "Cross-condition reconstruction instability on real-source renders; not cultural authenticity."
+  },
+  "holdout_uncertainty": {
+    "meshes_analyzed": 1344,
+    "pairwise_clean_perturbed_comparisons": 1152,
+    "watertight_rate": 0.6577380952380952,
+    "mean_components": 6.051339285714286,
+    "most_disruptive_condition": "occlusion_15",
+    "max_aggregate_chamfer": 0.06641052859438064,
+    "claim_boundary": "Cross-condition reconstruction instability on real-source renders; not cultural authenticity."
+  },
+  "hallucination_localization": {
+    "localized_meshes": 144,
+    "real_reference_assets": 4,
+    "conditions": [
+      "clean",
+      "jpeg_35",
+      "occlusion_30"
+    ],
+    "resolutions": [
+      128,
+      256,
+      512
+    ],
+    "mean_unsupported_rate_002": 0.635850384419484,
+    "worst_unsupported_rate_002": 1.0,
+    "representative_colored_ply": 8,
+    "reference_support_samples_per_asset": 50000,
+    "definition": "Generated vertices farther than a normalized distance threshold from a dense sample of the aligned real reference surface."
+  },
+  "cross_dataset_calibration": {
+    "calibration_train_split": "four Smithsonian development assets",
+    "calibration_test_split": "six disjoint Smithsonian category-holdout assets",
+    "target": "high versus low controlled degradation within each degradation family",
+    "features": [
+      "clean-to-perturbed Chamfer",
+      "extraction resolution"
+    ],
+    "development": {
+      "records": 768,
+      "prevalence": 0.5,
+      "brier": 0.24300476822031203,
+      "auroc": 0.6192287868923612,
+      "ece_10_bin": 0.10194377414867073
+    },
+    "external_holdout": {
+      "records": 1152,
+      "prevalence": 0.5,
+      "brier": 0.2485637263646847,
+      "auroc": 0.5770881558641975,
+      "ece_10_bin": 0.0651089753501446
+    },
+    "ch3d_reco_reference": {
+      "models": 45,
+      "sites": 5,
+      "site_disjoint_spearman": 0.5329643409173027,
+      "site_disjoint_mae": 0.7618897192821881
+    },
+    "claim_boundary": "The Smithsonian classifier transfers across held-out object categories. CH3D-Reco is reported as an independent MOS calibration benchmark because its published feature and rating scales are not commensurate with the reconstruction-instability score."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "models": 45,
+  "sites": 5,
+  "interaction_log_rows": 182023,
+  "best_single_metric": "FID_mean",
+  "best_single_metric_spearman": -0.8683075074514464,
+  "site_disjoint_linear_spearman": 0.5329643409173027,
+  "site_disjoint_linear_mae": 0.7618897192821881,
+  "claim_boundary": "Analysis of published CH3D-Reco ratings; no new human study."
+}

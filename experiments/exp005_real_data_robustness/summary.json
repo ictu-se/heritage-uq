@@ -1,0 +1,29 @@
+{
+  "real_source_assets": 4,
+  "input_images": 112,
+  "reconstructions": 896,
+  "resolutions": [
+    128,
+    192,
+    256,
+    320,
+    384,
+    448,
+    512,
+    640
+  ],
+  "conditions": [
+    "clean",
+    "blur_low",
+    "blur_high",
+    "jpeg_70",
+    "jpeg_35",
+    "occlusion_15",
+    "occlusion_30"
+  ],
+  "model": "stabilityai/TripoSR",
+  "model_commit": "107cefdc244c39106fa830359024f6a2f1c78871",
+  "model_checkpoint_bytes": 1677246742,
+  "model_checkpoint_sha256": "429e2c6b22a0923967459de24d67f05962b235f79cde6b032aa7ed2ffcd970ee",
+  "claim_boundary": "Real Smithsonian source meshes with controlled image perturbations; no cultural-authenticity claim."
+}

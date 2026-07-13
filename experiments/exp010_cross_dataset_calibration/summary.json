@@ -1,0 +1,30 @@
+{
+  "calibration_train_split": "four Smithsonian development assets",
+  "calibration_test_split": "six disjoint Smithsonian category-holdout assets",
+  "target": "high versus low controlled degradation within each degradation family",
+  "features": [
+    "clean-to-perturbed Chamfer",
+    "extraction resolution"
+  ],
+  "development": {
+    "records": 768,
+    "prevalence": 0.5,
+    "brier": 0.24300476822031203,
+    "auroc": 0.6192287868923612,
+    "ece_10_bin": 0.10194377414867073
+  },
+  "external_holdout": {
+    "records": 1152,
+    "prevalence": 0.5,
+    "brier": 0.2485637263646847,
+    "auroc": 0.5770881558641975,
+    "ece_10_bin": 0.0651089753501446
+  },
+  "ch3d_reco_reference": {
+    "models": 45,
+    "sites": 5,
+    "site_disjoint_spearman": 0.5329643409173027,
+    "site_disjoint_mae": 0.7618897192821881
+  },
+  "claim_boundary": "The Smithsonian classifier transfers across held-out object categories. CH3D-Reco is reported as an independent MOS calibration benchmark because its published feature and rating scales are not commensurate with the reconstruction-instability score."
+}

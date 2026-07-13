@@ -1,0 +1,20 @@
+{
+  "smithsonian_open_access_3d": {
+    "api": "https://3d-api.si.edu/api/v1.0/content/file/search",
+    "license": "CC0 where designated by the Smithsonian",
+    "documentation": "https://3d-api.si.edu/api-docs/"
+  },
+  "ch3d_reco": {
+    "record": "https://zenodo.org/records/18598772",
+    "api_record": "https://zenodo.org/api/records/18598772",
+    "evaluation_file": "data/external/ch3d_reco/Evaluation_results.xlsx",
+    "evaluation_file_bytes": 6242134,
+    "evaluation_file_sha256": "0a2dc4de5839deb6fde18f5d5149ed7d16a1d6d171d0a8a4ebc24d772cdf9474",
+    "reconstructed_models_bytes": 784755705,
+    "role": "quality calibration and external validation"
+  },
+  "culture3d": {
+    "repository": "https://github.com/openinterx/culture3d",
+    "role": "future scene-level Gaussian reconstruction validation"
+  }
+}

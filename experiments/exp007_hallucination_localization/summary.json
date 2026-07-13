@@ -1,0 +1,19 @@
+{
+  "localized_meshes": 144,
+  "real_reference_assets": 4,
+  "conditions": [
+    "clean",
+    "jpeg_35",
+    "occlusion_30"
+  ],
+  "resolutions": [
+    128,
+    256,
+    512
+  ],
+  "mean_unsupported_rate_002": 0.635850384419484,
+  "worst_unsupported_rate_002": 1.0,
+  "representative_colored_ply": 8,
+  "reference_support_samples_per_asset": 50000,
+  "definition": "Generated vertices farther than a normalized distance threshold from a dense sample of the aligned real reference surface."
+}
