@@ -67,6 +67,19 @@ GALLERY_CASES = (
     ),
 )
 
+ATLAS_CASES = (
+    ("pottery", "SI_fc2bca6b-1f44-4d2c-a1b9-713a33ee0596", 225),
+    ("fossil", "SI_1f1ec6af-193f-4969-9185-dc5dd587239d", 225),
+    ("mandible", "SI_b1a04b98-c12f-4123-8093-af32c20ce5f3", 225),
+    ("crab", "SI_451bcb49-01f9-4030-9d89-6f976b64572b", 225),
+    ("skull", "SI_6bd320bc-25b0-4ef8-9654-a6bdeea28636", 225),
+    ("helmet", "SI_69481624-3312-4f02-be4c-e8bb10ee84c4", 225),
+    ("statue", "SI_789cf90a-4387-4ac1-9e96-c7d6a7b9d26f", 225),
+    ("shell", "SI_c29a9ede-c224-46c9-8791-69ff36c23828", 225),
+    ("plow", "SI_d3ddac58-b467-40a4-93e6-8664b6a33997", 225),
+    ("insect", "SI_4cc2228f-6772-4878-971d-04e4893c94cd", 225),
+)
+
 
 def clear_scene() -> None:
     bpy.ops.object.select_all(action="SELECT")
@@ -183,6 +196,9 @@ def main() -> None:
         )
         render(reference, f"gallery_{label}_reference.png", azimuth, gray=False)
         render(reconstruction, f"gallery_{label}_reconstruction.png", 45, gray=True)
+    for label, asset_id, azimuth in ATLAS_CASES:
+        reference = ROOT / "data" / "raw" / "smithsonian" / f"{asset_id}.glb"
+        render(reference, f"atlas_{label}.png", azimuth, gray=False)
 
 
 if __name__ == "__main__":
