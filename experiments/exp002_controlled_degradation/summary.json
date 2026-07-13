@@ -1,6 +1,6 @@
 {
-  "assets": 4,
-  "records": 60,
+  "assets": 10,
+  "records": 150,
   "degradation_kinds": [
     "vertex_noise",
     "face_dropout",

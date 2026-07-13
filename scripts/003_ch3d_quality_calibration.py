@@ -10,6 +10,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import spearmanr
 
+plt.rcParams.update({"font.size": 15, "axes.titlesize": 16, "axes.labelsize": 15})
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "external" / "ch3d_reco" / "Evaluation_results.xlsx"

@@ -12,6 +12,10 @@ import trimesh
 from scipy.spatial import cKDTree
 from scipy.stats import spearmanr
 
+plt.rcParams.update(
+    {"font.size": 15, "axes.titlesize": 16, "axes.labelsize": 15, "legend.fontsize": 12}
+)
+
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "experiments" / "exp001_dataset_acquisition" / "asset_manifest.csv"

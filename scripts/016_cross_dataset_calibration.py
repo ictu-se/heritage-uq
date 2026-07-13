@@ -11,6 +11,9 @@ import pandas as pd
 from scipy.optimize import minimize
 from scipy.stats import rankdata
 
+plt.rcParams.update(
+    {"font.size": 15, "axes.titlesize": 16, "axes.labelsize": 15, "legend.fontsize": 12}
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 DEV = ROOT / "experiments" / "exp006_uncertainty_analysis" / "perturbation_sensitivity.csv"
@@ -41,7 +44,9 @@ def auc(labels: np.ndarray, scores: np.ndarray) -> float:
     n_positive = int(positive.sum())
     n_negative = len(labels) - n_positive
     ranks = rankdata(scores)
-    return float((ranks[positive].sum() - n_positive * (n_positive + 1) / 2) / (n_positive * n_negative))
+    return float(
+        (ranks[positive].sum() - n_positive * (n_positive + 1) / 2) / (n_positive * n_negative)
+    )
 
 
 def metrics(labels: np.ndarray, probabilities: np.ndarray) -> dict:
