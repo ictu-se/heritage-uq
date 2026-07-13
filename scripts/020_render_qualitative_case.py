@@ -68,12 +68,13 @@ GALLERY_CASES = (
 )
 
 ATLAS_CASES = (
-    ("mandible", "SI_b1a04b98-c12f-4123-8093-af32c20ce5f3", 225),
-    ("skull", "SI_6bd320bc-25b0-4ef8-9654-a6bdeea28636", 225),
-    ("shell", "SI_c29a9ede-c224-46c9-8791-69ff36c23828", 225),
-    ("plow", "SI_d3ddac58-b467-40a4-93e6-8664b6a33997", 225),
-    ("insect", "SI_4cc2228f-6772-4878-971d-04e4893c94cd", 225),
+    ("mandible", "SI_b1a04b98-c12f-4123-8093-af32c20ce5f3"),
+    ("skull", "SI_6bd320bc-25b0-4ef8-9654-a6bdeea28636"),
+    ("shell", "SI_c29a9ede-c224-46c9-8791-69ff36c23828"),
+    ("plow", "SI_d3ddac58-b467-40a4-93e6-8664b6a33997"),
+    ("insect", "SI_4cc2228f-6772-4878-971d-04e4893c94cd"),
 )
+ATLAS_AZIMUTHS = (225, 45, 135)
 
 ATLAS_MANDIBLE_RECONSTRUCTION = (
     ROOT
@@ -203,15 +204,17 @@ def main() -> None:
         )
         render(reference, f"gallery_{label}_reference.png", azimuth, gray=False)
         render(reconstruction, f"gallery_{label}_reconstruction.png", 45, gray=True)
-    for label, asset_id, azimuth in ATLAS_CASES:
+    for label, asset_id in ATLAS_CASES:
         reference = ROOT / "data" / "raw" / "smithsonian" / f"{asset_id}.glb"
-        render(reference, f"atlas_{label}.png", azimuth, gray=False)
-    render(
-        ATLAS_MANDIBLE_RECONSTRUCTION,
-        "atlas_mandible_reconstruction.png",
-        45,
-        gray=True,
-    )
+        for view_index, azimuth in enumerate(ATLAS_AZIMUTHS, start=1):
+            render(reference, f"atlas_{label}_v{view_index}.png", azimuth, gray=False)
+    for view_index, azimuth in enumerate(ATLAS_AZIMUTHS, start=1):
+        render(
+            ATLAS_MANDIBLE_RECONSTRUCTION,
+            f"atlas_mandible_reconstruction_v{view_index}.png",
+            azimuth,
+            gray=True,
+        )
 
 
 if __name__ == "__main__":
